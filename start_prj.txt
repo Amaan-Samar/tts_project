@@ -1,0 +1,6 @@
+tts_env\Scripts\activate
+
+
+pypinyin 
+
+conda activate tts

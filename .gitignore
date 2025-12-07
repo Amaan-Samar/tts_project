@@ -1,0 +1,6 @@
+tts_env/*
+exp/*
+src/__pycache__/*
+practice/*
+*.wav
+data/subtitles/*

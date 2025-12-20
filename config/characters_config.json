@@ -1,0 +1,42 @@
+{
+  "input_file": "C:/Users/Amaan/Documents/github_projects/tts_project/data/subtitles/chinese_text.txt",
+  "output_file": "C:/Users/Amaan/Documents/github_projects/tts_project/output/dialogue_audio.wav",
+  "characters": [
+    {
+      "name": "Keonne Rodriguez",
+      "aliases": ["**基翁: **", "**Keonne: **", "**基奥尼: **", "**Keonne Rodriguez: **"],
+      "gender": "male",
+      "voice_profile": {
+        "am": "fastspeech2_aishell3",
+        "voc": "hifigan_aishell3",
+        "spk_id": 10
+      },
+      "description": "Male protagonist - Developer"
+    },
+    {
+      "name": "Naomi",
+      "aliases": ["**娜奥米·布罗克韦尔：**", "**娜奥米: **", "**Naomi: **"],
+      "gender": "female",
+      "voice_profile": {
+        "am": "fastspeech2_aishell3",
+        "voc": "hifigan_aishell3",
+        "spk_id": 0
+      },
+      "description": "Female interviewer"
+    }
+  ],
+  "default_narrator": {
+    "gender": "male",
+    "voice_profile": {
+      "am": "fastspeech2_aishell3",
+      "voc": "hifigan_aishell3",
+      "spk_id": 15
+    }
+  },
+  "processing": {
+    "max_workers": 4,
+    "chunk_size": 200,
+    "cleanup_temp_files": true,
+    "pause_between_speakers_ms": 300
+  }
+}

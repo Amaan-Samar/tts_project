@@ -6,3 +6,5 @@ practice/*
 data/subtitles/*
 subtitles/*
 *.mp4
+*.log
+*.pyc

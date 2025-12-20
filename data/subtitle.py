@@ -30,7 +30,7 @@ def download_subtitles(video_url, output_path='subtitles'):
 
 # Example usage
 if __name__ == "__main__":
-    video_url = "https://youtu.be/9sJilPyBQsQ?si=SBF32zymMdUcT0G2"
+    video_url = "https://youtu.be/Fshsk8MCAf4?si=Boo7ZIcfqfFdgEzY"
     download_subtitles(video_url)
     
     # To download multiple languages:
